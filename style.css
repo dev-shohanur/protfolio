@@ -4,9 +4,10 @@ body{
 }
 h1{
     font-size: 50px;
+    line-height: 40px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 p{
     text-align: justify;
@@ -20,10 +21,11 @@ p{
 }
 .half-width{
     width: 50%;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 .half-width img {
     width: 80%;
+    margin-top: 40px;
 }
 .hier-me{
     text-decoration: none;
@@ -52,20 +54,29 @@ p{
 }
 .experiences-item{
     width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 10px;
+    padding-left: 12px;
+    padding-right: 6px;
     border-radius: 10px;
     border-left: 7px solid tomato;
     box-shadow: 10px 10px 40px black;
 }
 #experiences-item-1 {
     border-left: 7px solid tomato;
+    margin-left: 5%;
+    margin-right: 2.5%;
 }
 #experiences-item-2 {
     border-left: 7px solid blue;
+    margin-right: 5%;
+    margin-left: 2.5%;
 }
 footer p{
     text-align: center;
     color: gray;
+}
+.border{
+    border-top: 1px solid gray;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
 }
