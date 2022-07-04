@@ -1,6 +1,32 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
+}
+.oreange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 2%;
+}
+.half-width img {
+    width: 80%;
+}
+#hier-me{
+    text-decoration: none;
+    background-image: linear-gradient(orange,orangered);
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+.hero-section{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
 }
